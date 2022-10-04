@@ -1,0 +1,365 @@
+@import "./global.css";
+@import "./button.css";
+@import "./layout.css";
+@import "./navigation.css";
+@import "./get-in-touch.css";
+@import "./footer.css";
+
+/* ===================================================================
+      HEADER STYLES     =============================================
+=================================================================== */
+
+.header {
+  padding: 18vh 0 15vh;
+}
+
+.hero-box {
+  display: flex;
+}
+
+.hero-box__text {
+  width: 60%;
+  margin-top: 7rem;
+}
+
+.hero-box__heading {
+  font-size: 5.5rem;
+  font-weight: 700;
+  line-height: 6.4rem;
+  color: #0a302c;
+  max-width: 74rem;
+  margin-bottom: 2.4rem;
+}
+
+.hero-box__paragraph {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #405956;
+  max-width: 55.6rem;
+  margin-bottom: 5rem;
+}
+
+.hero-box__img {
+  width: 40%;
+  margin-right: 5rem;
+}
+
+.hero-box__img img {
+  max-width: 50rem;
+}
+
+/* ===================================================================
+      HERE TO SERVE SECTION STYLES     ===============================
+=================================================================== */
+
+.here-to-serve--section {
+  padding: 4.8rem 0 8rem;
+}
+
+.here-to-serve__caption {
+  text-align: center;
+}
+
+.here-to-serve h3 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  color: #0b1338;
+  margin-bottom: 1.2rem;
+}
+
+.here-to-serve p {
+  font-weight: 400;
+  color: #464a5a;
+  max-width: 65rem;
+  margin: 0 auto 6.4rem;
+}
+
+.here-to-serve__features {
+  display: flex;
+  gap: 13rem;
+}
+
+.here-to-serve__card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.8rem;
+  padding: 2.4rem 0;
+}
+
+.here-to-serve__card--bg {
+  background-color: #ffffff;
+  width: 37.1rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(146, 160, 221, 0.1);
+}
+
+.list--svg {
+  margin-bottom: 3.2rem;
+}
+
+.list--cap {
+  text-align: center;
+  max-width: 23.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.list--cap h3 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #0b1338;
+}
+
+.list--text {
+  max-width: 26rem;
+}
+
+/* ===================================================================
+      OVER 35 YEARS SECTION STYLES     ===============================
+=================================================================== */
+
+.over-35-years--section {
+  padding: 6.4rem 0 0;
+}
+
+.over-35-years {
+  position: relative;
+  display: flex;
+  margin-bottom: 20rem;
+}
+
+.over-35-years > *:not(:last-child) {
+  margin-right: 4.8rem;
+}
+
+.over-35-years__fig {
+  width: 50%;
+  display: flex;
+  position: relative;
+}
+
+.over-35-years__img img {
+  max-width: 100%;
+  object-fit: contain;
+  position: relative;
+  /* top: -2rem; */
+  /* left: rem; */
+}
+
+.over-35-years__svg {
+  width: 8.5rem;
+  height: 10rem;
+  left: -2rem;
+  top: 2rem;
+}
+
+.over-35-years__content {
+  width: 50%;
+  margin-top: 3rem;
+}
+
+.over-35-years__heading {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 4.8rem;
+  max-width: 50rem;
+  margin-bottom: 2.4rem;
+}
+
+.over-35-years__desc {
+  max-width: 59.1rem;
+  margin-bottom: 5rem;
+  font-weight: 400;
+}
+
+/* ===================================================================
+      HEADER STYLES     =============================================
+=================================================================== */
+
+.our-expertise--section {
+  padding-bottom: 8rem;
+}
+
+.our-expertise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.our-expertise__caption h3 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  margin-bottom: 10.6rem;
+}
+
+.our-expertise__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(32rem, 1fr));
+  column-gap: 3.2rem;
+  row-gap: 8.8rem;
+}
+
+.our-expertise__card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
+  padding-bottom: 4.8rem;
+  border-radius: 0.8rem;
+  background-color: #ffffff;
+  /* margin-bottom: 8rem; */
+}
+
+.our-expertise__cap {
+  max-width: 27.3rem;
+  margin: 0 auto 2.4rem;
+  display: flex;
+  align-self: center;
+}
+
+.our-expertise__svg {
+  margin-bottom: 4rem;
+}
+
+.our-expertise__svg svg {
+  position: relative;
+  top: -6.5rem;
+}
+
+.our-expertise__cap h4 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  height: 5.8rem;
+  color: #0a302c;
+}
+
+.our-expertise__text p {
+  color: #405956;
+}
+
+.our-vision--section {
+  padding: 8rem 0;
+}
+
+.our-vision__container {
+  display: flex;
+  gap: 9rem;
+  margin-bottom: 10.4rem;
+}
+
+.our-vision__container:last-child {
+  margin-bottom: 0;
+}
+
+.our-vision__illustration {
+  display: flex;
+  gap: 9rem;
+}
+
+.our-vision__img {
+  width: 50%;
+}
+
+.our-vision__img img {
+  width: 100%;
+}
+
+.our-vision__text {
+  width: 50%;
+  margin-top: 17rem;
+}
+
+.our-vision__cap h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.4rem;
+  line-height: 2.9rem;
+  height: 5.8rem;
+  color: #0a302c;
+}
+
+.text-text {
+  max-width: 50rem;
+}
+
+.text-text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #405956;
+}
+
+/* 05 */
+
+.ceo-quote--section {
+  background-color: #ffffff;
+  padding: 10rem;
+}
+
+/* .ceo-quote--section */
+
+.ceo-quote {
+  display: flex;
+  gap: 5rem;
+}
+
+.ceo-quote__img {
+  width: 50%;
+  position: relative;
+  z-index: 2;
+  left: 13rem;
+  top: 4.5rem;
+}
+
+.ceo-quote__img img {
+  width: 40rem;
+}
+
+.ceo-quote__card {
+  width: 50%;
+  max-width: 706px;
+  padding: 10rem;
+  background-color: #19776e;
+  position: relative;
+  right: 11rem;
+}
+
+.ceo-quote__card-text {
+  margin-top: 4.5rem;
+}
+
+.ceo-quote__card-text blockquote {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  color: #ffffff;
+  margin-bottom: 5rem;
+}
+
+.ceo-quote__cite h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.ceo-quote__cite p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}

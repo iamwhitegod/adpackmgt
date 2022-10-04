@@ -1,0 +1,77 @@
+/* ===================================================================
+      NAVIGATION STYLES ============================================= 
+=================================================================== */
+
+.navbar {
+  padding: 1.6rem 0;
+  position: relative;
+}
+
+.navbar--contact {
+  padding-bottom: 5vh;
+}
+
+.navbar__nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar__nav > *:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.navbar__top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__top > *:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.navbar__top-item {
+  display: flex;
+}
+
+.navbar__top-item > *:not(:last-child) {
+  margin-right: 0.8rem;
+}
+
+.navbar__top-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #19776e;
+}
+
+.navbar__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__bottom-logo h2 {
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 4rem;
+  color: #19776e;
+}
+
+.navbar__bottom-list {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__bottom-list > *:not(:last-child) {
+  margin-right: 4.8rem;
+}
+
+.navbar__bottom-link {
+  color: #0a302c;
+  text-decoration: none;
+}
+
+.navbar__open,
+.navbar__close {
+  display: none;
+}

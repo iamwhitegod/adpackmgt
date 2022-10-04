@@ -1,0 +1,21 @@
+/* ===================================================================
+      BUTTONS STYLES     =============================================
+=================================================================== */
+
+.btn {
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: none;
+  padding: 1.6rem 3.2rem;
+  text-decoration: none;
+}
+
+.btn--primary {
+  color: #ffffff;
+  background-color: #19776e;
+}
+
+.btn--secondary {
+  background-color: #ffffff;
+  color: #19776e;
+}

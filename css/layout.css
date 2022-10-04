@@ -1,0 +1,15 @@
+.wrapper,
+.wrapper--portfolio {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 5rem auto;
+}
+
+.container-04 {
+  max-width: 1140px;
+  margin: 0 auto;
+}

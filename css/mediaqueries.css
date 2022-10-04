@@ -1,0 +1,468 @@
+@media only screen and (max-width: 1274px) {
+  .ceo-quote__img {
+    left: 10rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    padding: 0 2.4rem;
+  }
+
+  .hero-box > *:not(:last-child) {
+    margin-right: 2.4rem;
+  }
+
+  .hero-box__img img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .here-to-serve__features {
+    justify-content: space-between;
+    gap: 3.2rem;
+  }
+
+  .here-to-serve__card {
+    width: calc((100% - (3.2rem * 2)) / 3);
+  }
+
+  .ceo-quote--section {
+    padding: 10rem 0;
+  }
+
+  .ceo-quote {
+    gap: 0;
+  }
+
+  .ceo-quote__img,
+  .ceo-quote__card {
+    width: 50%;
+  }
+
+  .ceo-quote__card {
+    padding: 7rem;
+    right: 0;
+  }
+
+  .ceo-quote__img {
+    /* min-width: 40rem; */
+    left: 0;
+    top: 0;
+  }
+
+  .ceo-quote__img img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar__top {
+    display: none;
+  }
+
+  .navbar__bottom-list {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+  }
+
+  .navbar__bottom-list > *:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 4.8rem;
+  }
+
+  .navbar__bottom-link {
+    font-size: 2.8rem;
+  }
+
+  .navbar__btn {
+    display: none;
+  }
+
+  .navbar__open {
+    display: block;
+    width: 3.6rem;
+  }
+
+  .navbar__close {
+    display: block;
+    width: 3.6rem;
+
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+  }
+
+  .header {
+    padding: 15vh 0;
+  }
+
+  .header--about {
+    padding: 7vh 0;
+  }
+
+  .header__caption--about {
+    padding: 1.6rem;
+  }
+
+  /* ===================================================================
+      HERO-BOX MEDIA QUERIES STYLES     ================================
+=================================================================== */
+
+  .hero-box {
+    /* text-align: center; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-box--about {
+    /* align-items: flex-start; */
+    padding: 5vh 0;
+  }
+
+  .hero-box--about .hero-box__desc {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .hero-box--about .hero-box__heading {
+    text-align: center;
+  }
+
+  .hero-box__text {
+    max-width: 80rem;
+    width: 80%;
+  }
+
+  .hero-box__img {
+    max-width: 60rem;
+    width: 90%;
+  }
+
+  .hero-box > *:not(:last-child) {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 4.8rem;
+  }
+
+  /* ===================================================================
+      HERE TO SERVE MEDIA QUERIES STYLES     ================================
+=================================================================== */
+
+  .here-to-serve--section {
+    padding-bottom: 0;
+  }
+
+  .here-to-serve__features {
+    flex-direction: column;
+  }
+
+  .here-to-serve__card {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .over-35-years--section {
+    padding: 0;
+  }
+
+  .over-35-years {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15rem;
+  }
+
+  .over-35-years__img,
+  .over-35-years__fig,
+  .over-35-years__content {
+    width: 80%;
+  }
+
+  .over-35-years > *:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .our-expertise__grid {
+    grid-template-columns: repeat(2, minmax(32rem, 1fr));
+  }
+
+  .our-vision__container {
+    gap: 4rem;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+
+  .our-vision__illustration {
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .our-vision__text {
+    margin: 0;
+  }
+
+  .containers {
+    padding: 1.6rem;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .get-in-touch__bottom {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .get-in-touch__card,
+  .get-in-touch__form {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .get-in-touch__form {
+    padding-top: 0;
+  }
+
+  .footer__footer {
+    flex-direction: column;
+  }
+
+  .footer__footer > *:not(:last-child) {
+    margin-bottom: 2.4rem;
+  }
+
+  .labels {
+    flex-direction: column;
+  }
+
+  .labels > * {
+    width: 100%;
+  }
+
+  .l-1 input,
+  .l-2 input,
+  .l-3 input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* ===================================================================
+      OUR VALUES MEDIA QUERIES STYLES     ================================
+=================================================================== */
+
+  .our-values--section {
+    padding: 6.4rem 0;
+  }
+
+  .our-team__grid {
+    gap: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0 1.6rem;
+  }
+
+  .wrapper--portfolio {
+    padding: 0;
+  }
+
+  .header {
+    padding: 10vh 0;
+  }
+
+  .header--about {
+    padding: 5vh 0;
+  }
+
+  .header__caption--about h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .navbar__bottom-logo h2 {
+    font-size: 2rem;
+  }
+
+  .navbar__open {
+    width: 2.4rem;
+  }
+
+  .hero-box__text h1 {
+    font-size: clamp(2.4rem, 3.2vw, 4.8rem);
+    line-height: clamp(3.2rem, 4vw, 5.6rem);
+  }
+
+  .hero-box__text {
+    text-align: left;
+    width: 98%;
+  }
+
+  .hero-box__text p {
+    margin: 0 0 2.4rem;
+  }
+
+  .hero-box__img {
+    width: 98%;
+    margin-right: 0;
+  }
+
+  .here-to-serve__card {
+    padding: 1.2rem;
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .over-35-years__img,
+  .over-35-years__fig,
+  .over-35-years__content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .over-35-years__svg svg {
+    width: 15rem;
+    position: relative;
+    top: -7.2rem;
+  }
+
+  .over-35-years__fig {
+    flex-direction: column;
+  }
+
+  .over-35-years > *:not(:last-child) {
+    margin-bottom: 2.4rem;
+  }
+
+  .over-35-years__heading {
+    font-size: clamp(2.4rem, 3.2vw, 4.8rem);
+    line-height: clamp(3.2rem, 4vw, 5.6rem);
+  }
+
+  .over-35-years__desc {
+    margin-bottom: 3.2rem;
+  }
+
+  .our-expertise__caption h3 {
+    font-size: clamp(2.8rem, 3.2vw, 4.8rem);
+    line-height: clamp(3.2rem, 4vw, 5.6rem);
+  }
+
+  .our-expertise__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .our-vision__container {
+    margin-bottom: 10rem;
+  }
+
+  .our-vision__illustration {
+    flex-direction: column;
+  }
+
+  .our-vision__illustration > * {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .our-vision__illustration .text-text {
+    max-width: 100%;
+  }
+
+  .ceo-quote {
+    gap: 0;
+    flex-direction: column;
+    /* height: 100vh; */
+  }
+
+  .ceo-quote__card {
+    padding: 6rem 4rem;
+    position: relative;
+    right: 0;
+    /* width: 100%; */
+  }
+
+  .ceo-quote__card,
+  .ceo-quote__img {
+    width: 100%;
+  }
+
+  .ceo-quote__card {
+    padding: 2.4rem;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
+
+  h4.bds {
+    height: 8.8rem;
+  }
+
+  .get-in-touch__it p {
+    word-break: break-all;
+  }
+
+  .our-values__grid {
+    flex-direction: column;
+  }
+
+  .our-values__grid > *:not(:last-child) {
+    margin-bottom: 6.4rem;
+  }
+
+  .our-values__card {
+    text-align: center;
+  }
+
+  .our-values__cap,
+  .our-values__text {
+    margin: 0 auto 1.6rem;
+  }
+
+  .our-team--section {
+    padding: 6.4rem 0 8rem;
+  }
+
+  .our-team__grid {
+    flex-direction: column;
+  }
+
+  .our-team__grid > *:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+
+  .our-team__card {
+    max-width: 40rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .companies-logos--section {
+    padding-bottom: 8rem;
+  }
+
+  .companies-logos__logos {
+    flex-wrap: wrap;
+  }
+
+  .companies-logos__logos > * {
+    /* width: 100%; */
+  }
+}

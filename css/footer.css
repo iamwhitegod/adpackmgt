@@ -1,0 +1,32 @@
+.footer {
+  padding: 4.8rem 0;
+  background-color: #ffffff;
+}
+
+.footer__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  color: #19776e;
+}
+
+.footer__list {
+  display: flex;
+}
+
+.footer__list > *:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #0a302c;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 2.4rem;
+}

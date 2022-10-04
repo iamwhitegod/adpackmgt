@@ -1,0 +1,257 @@
+@import "./global.css";
+@import "./button.css";
+@import "./layout.css";
+@import "./navigation.css";
+@import "./get-in-touch.css";
+@import "./footer.css";
+
+/* header */
+.header {
+  margin-bottom: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.header__caption {
+  padding: 6.4rem;
+  text-align: center;
+}
+
+.header__caption h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  color: #0a302c;
+  margin-bottom: 0.8rem;
+}
+
+.header__caption h3 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #00359b;
+  margin-bottom: 1.6rem;
+}
+
+.header__caption p {
+  color: #405956;
+  max-width: 74rem;
+  margin: 0 auto;
+}
+
+.hero-box {
+  display: flex;
+  padding: 10vh 0 5vh;
+}
+
+/* h-text */
+.hero-box__text {
+  width: 60%;
+}
+
+.hero-box__heading {
+  max-width: 74rem;
+  margin-bottom: 2rem;
+}
+
+.hero-box__heading h3 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #00359b;
+}
+
+.hero-box__desc {
+  max-width: 51.9rem;
+  /* margin-bottom: 5rem; */
+}
+
+.hero-box__desc p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #405956;
+  margin-bottom: 2rem;
+}
+
+/* h-img */
+.hero-box__img {
+  width: 40%;
+  margin-right: 5rem;
+}
+
+.hero-box__img img {
+  max-width: 100%;
+}
+
+/* 01 */
+
+.our-values--section {
+  padding: 8rem;
+  text-align: center;
+}
+
+.our--values__caption {
+  margin-bottom: 12rem;
+}
+
+.our--values__caption h3 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.8rem;
+  margin-bottom: 1.2rem;
+  color: #0a302c;
+}
+
+.our--values__caption p {
+  max-width: 74rem;
+  margin: 0 auto;
+  color: #405956;
+}
+
+.our-values__grid {
+  display: flex;
+  gap: 2.4rem;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+.our-values__card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
+  padding-bottom: 4.8rem;
+  border-radius: 0.8rem;
+  background-color: #ffffff;
+}
+
+.our-values__cap {
+  max-width: 27.3rem;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
+.our-values__svg {
+  margin-bottom: 4rem;
+}
+
+.our-values__svg svg {
+  position: relative;
+  top: -6.5rem;
+}
+
+.our-values__cap h4 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  height: 5.8rem;
+  color: #0a302c;
+}
+
+.our-values__text {
+  max-width: 36rem;
+}
+
+.our-values__text p {
+  color: #405956;
+}
+
+.our-team--section {
+  padding: 8rem 0 16rem;
+}
+
+.our-team__caption {
+  max-width: 74rem;
+  margin-bottom: 2rem;
+}
+
+.our-team__caption h3 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #00359b;
+  margin-bottom: 1.6rem;
+}
+
+.our-team__heading {
+  max-width: 42.8rem;
+  margin-bottom: 5rem;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  color: #0a302c;
+}
+
+.our-team__grid {
+  display: flex;
+  gap: 5rem;
+}
+
+.our-team__card {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% (3.2rem * 2)) / 3);
+}
+
+.our-team__card img {
+  max-width: 100%;
+  height: 34.3rem;
+  margin-bottom: 2rem;
+  object-fit: cover;
+  object-position: top;
+}
+
+.our-team__card h5 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #0a302c;
+}
+
+.our-team__card p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #405956;
+}
+
+/* 03 */
+.companies-logos--section {
+  padding-bottom: 16rem;
+}
+
+.companies-logos__caption {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #00359b;
+  margin-bottom: 3.2rem;
+
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.companies-logos__logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies-logos__logos > *:not(:last-child) {
+  margin-right: 3.2rem;
+}
+
+.logo {
+  object-fit: contain;
+  width: calc((100% - (3.2rem * 5)) / 6);
+  min-width: 8rem;
+  height: 12rem;
+}
