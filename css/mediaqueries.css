@@ -66,7 +66,8 @@
   }
 
   .navbar__bottom-list {
-    display: none;
+    /* display: none; */
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -76,7 +77,22 @@
     left: 0;
     top: 0;
     height: 100vh;
+    transform: translateX(-1000px);
+    transition: all 0.4s linear;
+    z-index: 10;
   }
+
+  .open {
+    transform: translateX(0);
+  }
+
+  .navbar__bottom-list.open > .navbar__bottom-link {
+    color: #0a302c;
+  }
+
+  /* .close {
+    display: none;
+  } */
 
   .navbar__bottom-list > *:not(:last-child) {
     margin-right: 0;

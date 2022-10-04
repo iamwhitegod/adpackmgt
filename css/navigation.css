@@ -74,4 +74,5 @@
 .navbar__open,
 .navbar__close {
   display: none;
+  cursor: pointer;
 }
