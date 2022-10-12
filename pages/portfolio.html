@@ -455,7 +455,7 @@
             </div>
           </div>
           <!--  -->
-          <div class="get-in-touch__form">
+          <form class="get-in-touch__form" id="js--form">
             <!--  -->
             <div class="labels">
               <div class="l-1">
@@ -494,14 +494,19 @@
             </div>
 
             <div class="l-4">
-              <label for="info">Your Message</label>
+              <label for="message">Your Message</label>
               <!-- <input type="text" id="info" /> -->
-              <textarea name="message" id="" cols="30" rows="10"></textarea>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
             </div>
             <!--  -->
 
-            <button class="btn btn--primary">Send Message</button>
-          </div>
+            <button type="submit" class="btn btn--primary">Send Message</button>
+          </form>
           <!--  -->
         </div>
       </div>

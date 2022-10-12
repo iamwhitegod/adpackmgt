@@ -90,6 +90,13 @@
   padding-right: 3rem;
 }
 
+.form--success {
+  margin-top: 2.4rem;
+  color: #19776e;
+  border: 1px solid #19776e;
+  padding: 1.6rem;
+}
+
 .labels {
   display: flex;
   gap: 4rem;
