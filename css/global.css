@@ -4,6 +4,7 @@
   box-sizing: border-box;
   tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
 }
 
 html {
